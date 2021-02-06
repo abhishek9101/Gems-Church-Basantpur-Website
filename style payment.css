@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 150px 300px;
+    font-size: 20px;
+    padding: 8px;
+}
+.container{
+    background-color: #f7d9d9c4;
+    padding: 5px 10px 15px 20px;
+    border: 1px solid lightgreen;
+    border-radius: 4px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="pincode"],
+input[type="date"],
+select,
+textarea{
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #cccccc;
+        margin: 5px;
+    }
+    fieldset{
+        background-color: #fff;
+        border: 1px solid #ccc;
+     }
+    .main_heading{
+        text-align: center;
+        text-decoration-line: underline;
+        text-decoration-color: black;
+    }
+    input[type="submit"]{
+        background-color: #75e4cc;
+        color: white;
+        padding: 15px 25px;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+    }
+    input[type="submit"]:hover{
+        background-color: #91e072;
+    }
